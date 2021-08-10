@@ -1,0 +1,4 @@
+congratulations: "Congratulations!"
+we_hope_you_enjoy_nette: "We hope you enjoy Nette!"
+docs_links_paragraph: "If you are exploring Nette for the first time, you should read the <a href='https://doc.nette.org/quickstart'>Quick Start</a>, <a href='https://doc.nette.org'>documentation</a>, <a href='https://blog.nette.org'>blog</a> and <a href='https://forum.nette.org'>forum</a>."
+web_project_successfully_created: "You have successfully created your %project% Web project."

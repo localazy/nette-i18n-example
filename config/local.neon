@@ -1,0 +1,20 @@
+parameters:
+
+
+database:
+	dsn: 'mysql:host=127.0.0.1;dbname=test'
+	user:
+	password:
+
+translation:
+    locales:
+        whitelist: [en, cs, sk, pl] # supported locales
+        default: en # default locale
+        # fallback: [en] # fallback locale
+    dirs: # directories containing locale files
+        - %appDir%/lang/homepage
+        - %appDir%/lang/common
+        - %appDir%/lang/plurals
+    returnOriginalMessage: false
+    localeResolvers:
+        - Contributte\Translation\LocalesResolvers\Router

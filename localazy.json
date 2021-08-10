@@ -1,0 +1,34 @@
+{
+    "writeKey": "a8543386801837391342-8780b679c554db4851ba5c32290a7ce11dc96174a1d6f7f7d746ea79cdaf65ea",
+    "readKey": "a8543386801837391342-446d91f4d40753420fa746a5903f6f4b336c070cfd4c67e2a892d120a9d700b8",
+    "upload": {
+        "type": "neon",
+        "files": [
+            {
+                "pattern": "app/lang/**/locale.en.neon",
+                "lang": "inherited",
+                "path": "${path}"
+            },
+            {
+                "pattern": "app/lang/**/locale+intl-icu.en.neon",
+                "lang": "inherited",
+                "path": "${path}"
+            }
+        ],
+        "features": [
+            "plural_icu"
+        ]
+    },
+    "download": {
+        "files": "${path}/${fileNameWithoutExtension}.${lang}.neon"
+    },
+    "transformations": [
+        {
+            "name": "fileNameWithoutExtension",
+            "source": "${file}",
+            "operations": [
+                "substringBefore: ."
+            ]
+        }
+    ]
+}

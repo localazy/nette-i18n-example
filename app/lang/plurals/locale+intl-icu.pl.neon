@@ -1,0 +1,6 @@
+{
+  "baby_gender": "{gender, select, girl {To dziewczyna!} boy {To chłopiec!} other {To coś innego!}}",
+  "num_of_apples": "{apples, plural, one {Jest jedno jabłko...} few {Tam są # jabłka!} other {Tam jest # jabłek!}}",
+  "organizer_gender": "{organizer_gender, select, female {{organizer_name} zaprosiła cię na swoją imprezę!} male {{organizer_name} zaprosił cię na swoją imprezę!} other {{organizer_name} zaprosili Cię na swoją imprezę!}}",
+  "users": "{count, plural, one {Mamy jednego użytkownika o nazwie {user_name}.} few {Mamy # użytkowniki o nazwie {user_name}.} other {Mamy # użytkowników o nazwie {user_name}.}}"
+}
