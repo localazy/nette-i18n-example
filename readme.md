@@ -5,7 +5,7 @@ This is an example repository showing how to use Localazy with Nette and Contrib
 To learn more, check out the [blog post](https://localazy.com/blog/how-to-localize-nette-app-using-contributte-translation-and-localazy) describing the set up in detail.
 
 ## Sandbox
-![https://codesandbox.io/s/nette-i18n-example-9sgdu](https://codesandbox.io/s/nette-i18n-example-9sgdu)
+[https://codesandbox.io/s/nette-i18n-example-9sgdu](https://codesandbox.io/s/nette-i18n-example-9sgdu)
 
 ## Testing out this repo
 This repository contains translations from an actual [Localize Nette Application example](https://localazy.com/p/localize-nette-application) app. You can try to run `localazy download` to see how it works. However, this app is in read-only mode, meaning that `localazy upload` will fail. 
