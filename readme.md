@@ -8,7 +8,7 @@ To learn more, check out the [blog post](https://localazy.com/blog/how-to-locali
 [https://codesandbox.io/s/nette-i18n-example-9sgdu](https://codesandbox.io/s/nette-i18n-example-9sgdu)
 
 ## Testing out this repo
-This repository contains translations from an actual [Localize Nette Application example](https://localazy.com/p/localize-nette-application) app. You can try to run `localazy download` to see how it works. However, this app is in read-only mode, meaning that `localazy upload` will fail. 
+This repository contains translations from an actual [Localize Nette Application example](https://localazy.com/blog/localize-php-nette-app-using-contributte-translation-localazy) app. You can try to run `localazy download` to see how it works. However, this app is in read-only mode, meaning that `localazy upload` will fail. 
 
 First, install dependencies using
 ```shell
